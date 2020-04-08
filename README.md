@@ -50,6 +50,67 @@ export default theme
 
 Super easy: `yarn dev -p 5000`
 
+### Adding meta tags
+
+These template includes [@hackclub/meta](https://github.com/hackclub/theme/tree/master/packages/meta)
+for adding meta tags to Hack Club HQ sites. To set default meta tags across all pages,
+add the following to `pages/_app.js`:
+
+```js
+// import Head from 'next/head'
+
+<Head>
+  <Meta
+    name="Hack Club" // site name
+    title="Hackathons" // page title
+    description="List of upcoming high school hackathons" // page description
+    image="https://hackathons.hackclub.com/card.png" // large summary card image URL
+    color="#ec3750" // theme color
+    manifest="/site.webmanifest" // link to site manifest
+  />
+</Head>
+```
+
+If you’re not making a site for HQ, don’t use `@hackclub/meta`, since it adds
+Hack Club’s favicons & info. Instead, we recommend making your own component,
+perhaps at `components/meta.js`.
+
+<details>
+
+<summary>Example code</summary>
+
+```js
+import Head from 'next/head'
+import theme from '@hackclub/theme' // or '../lib/theme'
+
+export default ({
+  name = 'Your Company',
+  title = 'Your Project',
+  description = '',
+  image = 'https://yourproject.now.sh/card.png',
+  url = 'https://yourproject.now.sh/'
+}) => (
+  <Head>
+    <title>{title}</title>
+    <meta property="og:title" content={title} />
+    <meta name="twitter:title" content={title} />
+    <meta name="og:url" content={url} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={name} />
+    <meta name="description" content={description} />
+    <meta property="og:description" content={description} />
+    <meta name="twitter:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={image} />
+    <meta name="msapplication-TileColor" content={theme.colors.primary} />
+    <meta name="theme-color" content={theme.colors.primary} />
+  </Head>
+)
+```
+
+</details>
+
 ## Deployment
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/hackclub/theme-starter)

@@ -10,11 +10,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "@hackclub/meta": "^0.1.0-alpha.0",
-    "@hackclub/theme": "^0.1.0-alpha.0",
-    "@mdx-js/loader": "^1.5.8",
-    "@next/mdx": "^9.3.4",
-    "next": "^9.3.4",
+    "@hackclub/meta": "^1.0.0",
+    "@hackclub/theme": "^0.1.1",
+    "@mdx-js/loader": "^1.6.5",
+    "@next/mdx": "^9.4.4",
+    "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "theme-ui": "^0.3.1"

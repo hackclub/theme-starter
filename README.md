@@ -87,8 +87,8 @@ export default ({
   name = 'Your Company',
   title = 'Your Project',
   description = '',
-  image = 'https://yourproject.now.sh/card.png',
-  url = 'https://yourproject.now.sh/'
+  image = 'https://yourproject.vercel.app/card.png',
+  url = 'https://yourproject.vercel.app/'
 }) => (
   <Head>
     <title>{title}</title>
@@ -113,11 +113,11 @@ export default ({
 
 ## Deployment
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/hackclub/theme-starter)
+[![Deploy with Vercel](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/hackclub/theme-starter)
 
-We recommend using [ZEIT Now](https://zeit.co) for deployment. It requires no
+We recommend using [Vercel](https://vercel.com) for deployment. It requires no
 configuration, is totally free for personal projects, and supports all the features
-of Next.js with the best performance. Refer to [their documentation](https://zeit.co/docs#deploy-an-existing-project)
+of Next.js with the best performance. Refer to [their documentation](https://vercel.com/docs#deploy-an-existing-project)
 for more details.
 
 If you’re only making a static site (e.g. no [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering)

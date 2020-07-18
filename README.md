@@ -52,23 +52,23 @@ Super easy: `yarn dev -p 5000`
 
 ### Adding meta tags
 
-These template includes [@hackclub/meta](https://github.com/hackclub/theme/tree/master/packages/meta)
+These template includes [@hackclub/meta](https://github.com/hackclub/theme/tree/main/packages/meta)
 for adding meta tags to Hack Club HQ sites. To set default meta tags across all pages,
 add the following to `pages/_app.js`:
 
 ```js
 // import Head from 'next/head'
+// import Meta from '@hackclub/meta'
 
-<Head>
-  <Meta
-    name="Hack Club" // site name
-    title="Hackathons" // page title
-    description="List of upcoming high school hackathons" // page description
-    image="https://hackathons.hackclub.com/card.png" // large summary card image URL
-    color="#ec3750" // theme color
-    manifest="/site.webmanifest" // link to site manifest
-  />
-</Head>
+<Meta
+  as={Head}
+  name="Hack Club" // site name
+  title="Hackathons" // page title
+  description="List of upcoming high school hackathons" // page description
+  image="https://hackathons.hackclub.com/card.png" // large summary card image URL
+  color="#ec3750" // theme color
+  manifest="/site.webmanifest" // link to site manifest
+/>
 ```
 
 If you’re not making a site for HQ, don’t use `@hackclub/meta`, since it adds
@@ -122,7 +122,7 @@ load it appropriately in `pages/_app.js`. The script is located at
 
 <details>
 
-<summary>`pages/_app.js` code</summary>
+<summary>Example file with Fathom</summary>
 
 ```js
 import React, { useEffect } from 'react'
@@ -140,7 +140,7 @@ const App = ({ Component, pageProps }) => {
   const router = useRouter()
 
   useEffect(() => {
-    Fathom.load('OGIMJEFA', {
+    Fathom.load('YOURCODE', {
       includedDomains: ['hackclub.com'],
       url: 'https://aardvark.hackclub.com/script.js'
     })

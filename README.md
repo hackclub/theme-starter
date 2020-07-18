@@ -111,6 +111,59 @@ export default ({
 
 </details>
 
+### Adding analytics
+
+Hack Club HQ uses (& loves) [Fathom Analytics](https://usefathom.com/ref/NXBJA2)
+for simple, privacy-focused analytics. ([Check out our site’s analytics here.](https://app.usefathom.com/share/ogimjefa/hackclub.com))
+
+To add Fathom to your project, `yarn add fathom-client`, then you’ll need to
+load it appropriately in `pages/_app.js`. The script is located at
+<https://aardvark.hackclub.com/script.js>.
+
+<details>
+
+<summary>`pages/_app.js` code</summary>
+
+```js
+import React, { useEffect } from 'react'
+import { useRouter } from 'next/router'
+import NextApp from 'next/app'
+import Head from 'next/head'
+
+import Meta from '@hackclub/meta'
+import '@hackclub/theme/fonts/reg-bold.css'
+import theme from '../lib/theme'
+import { ThemeProvider } from 'theme-ui'
+import * as Fathom from 'fathom-client'
+
+const App = ({ Component, pageProps }) => {
+  const router = useRouter()
+
+  useEffect(() => {
+    Fathom.load('OGIMJEFA', {
+      includedDomains: ['hackclub.com'],
+      url: 'https://aardvark.hackclub.com/script.js'
+    })
+    const onRouteChangeComplete = () => Fathom.trackPageview()
+    router.events.on('routeChangeComplete', onRouteChangeComplete)
+    return () => {
+      router.events.off('routeChangeComplete', onRouteChangeComplete)
+    }
+  }, [])
+
+  return (
+    <ThemeProvider theme={theme}>
+      <Meta as={Head} />
+      <Component {...pageProps} />
+    </ThemeProvider>
+  )
+}
+
+export default App
+```
+
+</details>
+
 ## Deployment
 
 [![Deploy with Vercel](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/hackclub/theme-starter)

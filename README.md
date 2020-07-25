@@ -2,6 +2,8 @@
 
 A sample [Next.js] project for getting started with [MDX], [Theme UI], & [Hack Club Theme].
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fhackclub%2Ftheme-starter&repo-name=theme-project)
+
 [next.js]: https://nextjs.org
 [mdx]: https://mdxjs.com
 [theme ui]: https://theme-ui.com
@@ -166,7 +168,7 @@ export default App
 
 ## Deployment
 
-[![Deploy with Vercel](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/hackclub/theme-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fhackclub%2Ftheme-starter&repo-name=theme-project)
 
 We recommend using [Vercel](https://vercel.com) for deployment. It requires no
 configuration, is totally free for personal projects, and supports all the features

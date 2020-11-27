@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@hackclub/meta": "^1.0.0",
-    "@hackclub/theme": "^0.3.0",
+    "@hackclub/theme": "^0.3.1",
     "@mdx-js/loader": "^1.6.21",
     "@next/mdx": "^10.0.1",
     "next": "^10.0.1",

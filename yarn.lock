@@ -1451,10 +1451,10 @@
   resolved "https://registry.yarnpkg.com/@hackclub/meta/-/meta-1.1.0.tgz#08051822921ff1406b23ff242d3ce395908c7817"
   integrity sha512-YgDkhrKVzElaoEAf5xcXu0C5RKqwft2g2Rk26dHdcRrb3oOUDa9mJM6O0KC2VJ4G7/iLO+qotUnc/vtsREugVw==
 
-"@hackclub/theme@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@hackclub/theme/-/theme-0.3.0.tgz#d1f5ae1f52aea22e732f6aad8e0a361e4979b963"
-  integrity sha512-OY2OUhFhFihG0UhhpkQWM7A2rRYWIJRtiOxNRrESw7NCcyk1DSFXDv8lAUaDKsrQ5opX16nnzctWgfpHVw1YXQ==
+"@hackclub/theme@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@hackclub/theme/-/theme-0.3.1.tgz#ab1f473178e3f1fa857a41e5edf53d30c42562e9"
+  integrity sha512-Kl1emuTu+LQdo+g1RqOwUr8Q3eV/A9Xn6hcwwhiKnsI2hFnSVxjvP1ZKTzdUdQjhSqgl2FAMg84AAn7ZjZRJWg==
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
@@ -1530,10 +1530,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-10.0.1.tgz#5f49329fcc4fe8948737aeb8108c9d7d75155f93"
   integrity sha512-6dwx5YXKG88IR9Q1aai+pprF7WKcmtl0ShQy/iENj5yMWMzsQCem6hxe198u9j7z1IsWyGDXZPsaLEJEatOpeQ==
 
-"@next/mdx@^10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.0.1.tgz#95f3ddee3c7c6457dd4b1b6cb694921371f7c6d1"
-  integrity sha512-p9EAZwtZnkvgGMj7gYsxYD82/yXXZEo3fruTEhr+xBNEslHehcDYq6nBJUIkbyDu+6WIsNYjTlmhP6Iqqr9cSQ==
+"@next/mdx@^10.0.3":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.0.3.tgz#91bbff794bb1f422b26170de6e5ac4f05f98dc19"
+  integrity sha512-KpvYJvp0s3h6p0GfMt2TJHqUsG1QaXXhmURgA4t7Ifz2W8gvTLzQGXYb4FvRHo5+pKwIofVfEi2sOQX2R0kU3g==
 
 "@next/polyfill-module@10.0.1":
   version "10.0.1"

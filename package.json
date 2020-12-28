@@ -14,7 +14,7 @@
     "@hackclub/theme": "^0.3.1",
     "@mdx-js/loader": "^1.6.22",
     "next": "^10.0.3",
-    "@next/mdx": "^10.0.3",
+    "@next/mdx": "^10.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "theme-ui": "^0.3.4"

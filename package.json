@@ -13,7 +13,7 @@
     "@hackclub/theme": "^0.3.3",
     "@hackclub/meta": "^1.1.32",
     "@mdx-js/loader": "^1.6.22",
-    "next": "^12.0.7",
+    "next": "^12.0.8",
     "@next/mdx": "^10.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

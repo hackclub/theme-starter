@@ -521,10 +521,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.0.8.tgz#a32ca0a97d464307f2e6ff106ce09b19aac108cf"
   integrity sha512-Wa0gOeioB9PHap9wtZDZEhgOSE3/+qE/UALWjJHuNvH4J3oE+13EjVOiEsr1JcPCXUN8ESQE+phDKlo6qJ8P9g==
 
-"@next/mdx@^10.0.4":
-  version "10.0.4"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.0.4.tgz#a124d1890fb93e053894bd63fa948703e9d324f7"
-  integrity sha512-mUsfz+COZVq8R9+g2BMyMMdn6nYPkxAoBwtdUZOUoaqthBZ0w4gsF8BZQQBD5EjV//vV3NfGtWzCxBeYf4dsgw==
+"@next/mdx@^12.0.9":
+  version "12.0.9"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.9.tgz#9a3036e6b95371301a503dd7992ced7e10dfc712"
+  integrity sha512-BVAUT5VVHrmztpeYnvt1S5Afq42oxl1uz49QyUHPfXfqCgrXM+SHVGnTZ76XnuSz4TTqJZdVpHdhgB8Qjnt46A==
 
 "@next/react-refresh-utils@12.0.8":
   version "12.0.8"

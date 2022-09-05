@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
+    "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.8.1",
     "@hackclub/meta": "^1.1.32",
     "@hackclub/theme": "^0.3.3",

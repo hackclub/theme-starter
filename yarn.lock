@@ -166,10 +166,10 @@
   resolved "https://registry.yarnpkg.com/@hackclub/meta/-/meta-1.2.0.tgz#e64dddad660e6162f2b2fe393867a100bbfdc0d1"
   integrity sha512-CicpTiQtE+FiDzt5Wwime/6N3ML9lVfuH3NzhF/0kCces6+kIvjofc3dhaCiW5s/5kMVu0wVEVLsZ6M6uT4dGA==
 
-"@hackclub/theme@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@hackclub/theme/-/theme-1.0.0.tgz#3580339443cdc636272d8ac93b8fda0977bdba25"
-  integrity sha512-HUtUsKQ3Vgc4o97OqQFFOcgiydHNw3QNcdRCkvBmWAgwEsPKYcHkNRajrAhS3IiTLovBuPWcb3P8bIIPRznFYQ==
+"@hackclub/theme@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@hackclub/theme/-/theme-1.1.0.tgz#e23dfeed3448249d579383b8a11954623e553199"
+  integrity sha512-kpbhmqo72RU1Z0e65eYIpmpWGzNrtnVnTa7PGWPLr6TQc23Xs6QxQy35j5+rkIbi8lnm4OwigHUgygwsOYDgqA==
   dependencies:
     "@emotion/react" "^11.14.0"
     theme-ui "^0.17.4"
